@@ -1,0 +1,24 @@
+/* body{
+    height: 100vh;
+    margin: 0;
+    background-image: radial-gradient(ellipse farthest-side at bottom left, #000000, #1e1e1e, #fff),
+                    radial-gradient(ellipse farthest-side at bottom right, red, green, blue, yellow, #fff);
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: left bottom, right bottom;
+} */
+ body{
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(-45deg, #05192c, #021322);
+    color:#fff;
+ }
+
+ #animate.animate{
+    font-size: 30px;
+    color: yellow;
+ }
+
+ footer{
+    color: red;
+ }
