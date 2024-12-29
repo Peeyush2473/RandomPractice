@@ -16,17 +16,11 @@
 
  #animate.animate{
     font-size: 30px;
+    font-weight: bold;
     color: yellow;
     display: inline-block;
-    animation: fadeInOut 3s ease-in-out infinite;
-    opacity: 0;
- }
-
- @keyframes fadeInOut{
-    0%{ opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
-
+    border-right: 2px solid yellow;
+    padding-right: 3px;
  }
 
  footer{
