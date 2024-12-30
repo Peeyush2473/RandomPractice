@@ -13,8 +13,9 @@
     background-image: url(/Frontend/Assets/WhatsApp\ Image\ 2024-09-20\ at\ 18.17.12.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    align-items: center;
     color:#fff;
+    flex-direction: column;
+    align-items: center;
  }
 
  header{
@@ -29,6 +30,46 @@
    position: relative;
    padding-left: 20px;
  }
+
+ .content-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50%;
+   background-color: #808a9340;
+   backdrop-filter: blur(0.5px);
+   border: black solid 3px;
+   border-bottom-right-radius: 100%;
+   border-top-right-radius: 100%;
+   margin: 10px;
+   translate: 0px;
+   animation: slideIn 2s; 
+ }
+
+ @keyframes slideIn{
+   0% {translate: -5000px;}
+   100% {translate: 0px;}
+ }
+
+ .content{
+   font-size: larger;
+   font-weight: bold;
+   font-style: italic;
+   color: #000;
+   align-items: center;
+   justify-content: center;
+ }
+
+ footer {
+   margin-top: auto; /* Pushes the footer to the bottom */
+   background-color: #808a9340;
+   backdrop-filter: blur(2px);
+   border-radius: 40px;
+   width: 90%;
+   margin-left: 5%;
+   display: flex;
+   padding-left: 20px;
+}
 
  #animate.animate{
     font-size: 30px;
