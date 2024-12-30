@@ -10,8 +10,24 @@
  body{
     height: 100vh;
     margin: 0;
-    background-image: linear-gradient(-45deg, #05192c, #021322);
+    background-image: url(/Frontend/Assets/WhatsApp\ Image\ 2024-09-20\ at\ 18.17.12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
     color:#fff;
+ }
+
+ header{
+   background-color: #808a9340;
+   -webkit-backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
+   border-radius: 40px;
+   display: flex;
+   width: 80%;
+   margin-top: 20px;
+   margin-left: 10%;
+   position: relative;
+   padding-left: 20px;
  }
 
  #animate.animate{
